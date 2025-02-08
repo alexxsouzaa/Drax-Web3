@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+}
+
+#login_container{
+    background-color: blue;
+    width: 40%;
+    height: 100vh;
+    margin: 16px 4px 16px 16px;
+    border-radius: 16px;
+}
+
+#img_container{
+    background-color: brown;
+    width: 60%;
+    height: 100vh;
+    margin: 16px 16px 16px 4px;
+    border-radius: 16px;
+
+}
