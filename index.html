@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Drax Web3</title>
+
+    <!-- Importando CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Fonte Poppins -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
 <body>
+    
     <div id="login_container">
-        <h1>Bem-vindo</h1>
+        <div class="logo">
+            <img src="assets/Logo.png" alt="Drax Logo">
+        </div>
+
+        <div id="title">
+            <h1>Bem-vindo!</h1>
+            <p>Bem-vindo ao Drax. Faça login com seu e-mail <br> ou conecte uma carteira Web3 para acessar.</p>
+        </div>
+
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Senha">
+
+        <div class="userCheck">
+            <input type="checkbox" id="lembrarUsuario">
+            <label for="lembrarUsuario">Lembrar de mim</label>
+        </div>
+
+        <button type="button">Entrar</button>
+
+        <div class="divider">
+            <span>ou</span>
+        </div>
+
+        <div class="login_social">
+            <button type="button">MetaMask</button>
+            <button type="button">CoinBase Wallet</button>
+            <button type="button">True Wallet</button>
+        </div>
     </div>
-    <div id="img_container">
-        <h1>1</h1>
-    </div>
+
+    <div id="img_container"></div>
+
 </body>
 </html>
