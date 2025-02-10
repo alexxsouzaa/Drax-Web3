@@ -54,32 +54,48 @@ body {
     background: linear-gradient(0deg, #181818, #2E2E2E);
     width: 45%;
     min-width: 400px;
+    height: auto;
     margin: 16px 8px 16px 16px;
     padding: 0 70px;
     border-radius: 16px;
 }
 
 /* Campos de entrada */
-input {
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputs input {
     background-color: #141414;
     border: 1px solid #7E7E7E;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 10px;
     color: #fff;
-    padding: 11px 16px;
-    margin-bottom: 8px;
+    width: auto;
+    padding: 10px 16px;
+}
+
+input[type="checkbox"]{
+    width: 12px;
+    height: 12px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 16px;
 }
 
 /* Checkbox */
 .userCheck {
     display: flex;
-    align-items: center;
+    margin-top: 8px;
 }
 
 .userCheck label {
+    align-items: center;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 500;
     color: #7E7E7E;
     margin-left: 8px;
 }
@@ -92,7 +108,7 @@ button {
     padding: 10px;
     margin-top: 8px;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     cursor: pointer;
 }
@@ -129,13 +145,22 @@ button {
 }
 
 .login_social button{
+    display: flex;
+    align-items: center;
     background: #313131;
     text-align: justify;
+    border-radius: 6px;
+    font-weight: 300;
+    gap: 16px;
+}
+
+.login_social img{
+    height: 24px;
 }
 
 /* Imagem lateral */
 #img_container {
-    background: url(./assets/bg2.png) center/cover no-repeat;
+    background: url(/assets/bg2.png) center/cover no-repeat;
     width: 100%;
     min-height: 600px;
     margin: 16px 16px 16px 4px;
@@ -145,8 +170,6 @@ button {
 /* Responsividade */
 @media (max-width: 700px) {
     body {
-        display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -158,8 +181,8 @@ button {
     #login_container {
         width: 90%;
         min-width: auto;
-        margin: 16px;
-        padding: 0 40px;
+        height: auto;
+        padding: 0 56px;
     }
 }
 

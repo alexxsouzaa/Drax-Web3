@@ -1,5 +1,19 @@
+<!--
+██████  ██████   █████  ██   ██     ██     ██ ███████ ██████  ██████  
+██   ██ ██   ██ ██   ██  ██ ██      ██     ██ ██      ██   ██      ██ 
+██   ██ ██████  ███████   ███       ██  █  ██ █████   ██████   █████  
+██   ██ ██   ██ ██   ██  ██ ██      ██ ███ ██ ██      ██   ██      ██ 
+██████  ██   ██ ██   ██ ██   ██      ███ ███  ███████ ██████  ██████  
+
+Autor: Bruno Álex
+GitHub: https://github.com/alexxsouzaa
+Linkedin: https://www.linkedin.com/in/tecnicobrunoalex/
+-->
+
+
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +22,17 @@
     <!-- Importando CSS -->
     <link rel="stylesheet" href="styles/style.css">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+
     <!-- Fonte Poppins -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
     </style>
 </head>
+
 <body>
-    
+
     <div id="login_container">
         <div class="logo">
             <img src="assets/Logo.png" alt="Drax Logo">
@@ -25,8 +43,10 @@
             <p>Bem-vindo ao Drax. Faça login com seu e-mail <br> ou conecte uma carteira Web3 para acessar.</p>
         </div>
 
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Senha">
+        <div class="inputs">
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Senha">
+        </div>
 
         <div class="userCheck">
             <input type="checkbox" id="lembrarUsuario">
@@ -40,13 +60,25 @@
         </div>
 
         <div class="login_social">
-            <button type="button">MetaMask</button>
-            <button type="button">CoinBase Wallet</button>
-            <button type="button">True Wallet</button>
+            <button type="button">
+                <img src="assets/icons/MetaMask.png" alt="MetaMask">
+                MetaMask
+            </button>
+
+            <button type="button">
+                <img src="assets/icons/CoinBase.png" alt="CoinBase Wallet">
+                CoinBase Wallet
+            </button>
+
+            <button type="button">
+                <img src="assets/icons/True_Wallet.png" alt="True Wallet">
+                True Wallet
+            </button>
         </div>
     </div>
 
     <div id="img_container"></div>
 
 </body>
+
 </html>
