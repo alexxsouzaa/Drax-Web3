@@ -161,7 +161,7 @@ button {
 
 /* Imagem lateral */
 #img_container {
-    background: url(/assets/bg.png) center/cover no-repeat;
+    background: url(./assets/bg.png) center/cover no-repeat;
     width: 100%;
     min-height: 600px;
     margin: 16px 16px 16px 4px;
