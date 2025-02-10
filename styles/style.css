@@ -25,7 +25,7 @@ body {
 }
 
 .logo img {
-    height: 64px;
+    height: 50px;
 }
 
 /* Título */
@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0 40px;
+    padding: 16px 0 40px;
     text-align: center;
 }
 
@@ -55,7 +55,8 @@ body {
     width: 45%;
     min-width: 400px;
     height: auto;
-    margin: 16px 8px 16px 16px;
+    min-height: 600px;
+    margin: 16px 4px 16px 16px;
     padding: 0 70px;
     border-radius: 16px;
 }
@@ -160,7 +161,7 @@ button {
 
 /* Imagem lateral */
 #img_container {
-    background: url(/assets/bg2.png) center/cover no-repeat;
+    background: url(/assets/bg.png) center/cover no-repeat;
     width: 100%;
     min-height: 600px;
     margin: 16px 16px 16px 4px;
@@ -174,16 +175,24 @@ button {
         justify-content: center;
     }
 
+    #login_container {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(0deg, #181818, #2E2E2E);
+        width: 45%;
+        min-width: 450px;
+        min-height: 600px;
+        height: 100%;
+        padding: 0 70px;
+        margin: 16px 16px 16px 16px;
+        border-radius: 16px;
+    }
+
     #img_container {
         display: none;
     }
 
-    #login_container {
-        width: 90%;
-        min-width: auto;
-        height: auto;
-        padding: 0 56px;
-    }
+
 }
 
 
