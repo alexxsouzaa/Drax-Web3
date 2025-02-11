@@ -171,6 +171,7 @@ button {
 /* Responsividade */
 @media (max-width: 700px) {
     body {
+        display: flex;
         align-items: center;
         justify-content: center;
     }
@@ -180,11 +181,11 @@ button {
         flex-direction: column;
         background: linear-gradient(0deg, #181818, #2E2E2E);
         width: 45%;
-        min-width: 450px;
+        min-width: 400px;
         min-height: 600px;
         height: 100%;
         padding: 0 70px;
-        margin: 16px 16px 16px 16px;
+        margin: 16px;
         border-radius: 16px;
     }
 
