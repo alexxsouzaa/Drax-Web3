@@ -141,8 +141,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
 }
 
 .login_social button{
@@ -151,17 +149,35 @@ button {
     background: #313131;
     text-align: justify;
     border-radius: 6px;
-    font-weight: 300;
+    font-weight: 500;
     gap: 16px;
+    padding-left: 16px;
 }
 
 .login_social img{
     height: 24px;
 }
 
+.createAccount{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.createAccount p{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.createAccount a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 /* Imagem lateral */
 #img_container {
-    background: url(./assets/bg.png) center/cover no-repeat;
+    background: url(/assets/bg2.png) center/cover no-repeat;
     width: 100%;
     min-height: 600px;
     margin: 16px 16px 16px 4px;
@@ -192,7 +208,7 @@ button {
         width: 45%;
         min-width: 400px;
         min-height: 600px;
-        padding: 0px 50;
+        padding: 0px 50px;
         margin: 48px;
         border-radius: 16px;
     }
