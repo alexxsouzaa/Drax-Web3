@@ -202,7 +202,6 @@ button {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        align-content: space-between;
         margin: 0 auto;
         height: 100vh;
     }
@@ -212,10 +211,8 @@ button {
         flex-direction: column;
         background: linear-gradient(0deg, #181818, #2E2E2E);
         min-width: 400px;
-        min-height: 600px;
+        min-height: auto;
         padding: 0px 50px;
-        margin: 48px;
-        border-radius: 16px;
     }
 
     #img_container {
