@@ -190,9 +190,11 @@ button {
 /* Responsividade */
 @media (max-width: 700px) {
     body {
-        
-        align-items: center;
-        justify-content: center;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; /* Centraliza no eixo X */
+        align-items: center; /* Centraliza no eixo Y */
+        height: 100vh;
     }
 
     #container{
@@ -200,7 +202,8 @@ button {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: auto;
+        align-content: space-between;
+        margin: 0 auto;
         height: 100vh;
     }
 
@@ -208,7 +211,6 @@ button {
         display: flex;
         flex-direction: column;
         background: linear-gradient(0deg, #181818, #2E2E2E);
-        width: 45%;
         min-width: 400px;
         min-height: 600px;
         padding: 0px 50px;
