@@ -13,6 +13,7 @@
 body {
     background-color: #0D0D0D;
     color: #fff;
+    height: 100vh;
 }
 
 #container{
@@ -210,6 +211,7 @@ button:hover{
         display: flex;
         justify-content: center; /* Centraliza no eixo X */
         align-items: center; /* Centraliza no eixo Y */
+        margin: auto;
     }
 
     #login_container {
