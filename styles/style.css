@@ -13,11 +13,12 @@
 body {
     background-color: #0D0D0D;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #container{
     display: flex;
+    flex-direction: row;
 }
 
 /* Logo */
@@ -58,7 +59,6 @@ body {
     background: linear-gradient(0deg, #181818, #2E2E2E);
     width: 45%;
     min-width: 400px;
-    height: auto;
     min-height: 600px;
     margin: 16px 4px 16px 16px;
     padding: 0 70px;
@@ -79,7 +79,8 @@ body {
     font-weight: 400;
     font-size: 10px;
     color: #fff;
-    width: auto;
+    width: 100%;
+    max-width: 100%;
     padding: 10px 16px;
 }
 
@@ -119,7 +120,7 @@ button {
 }
 
 button:hover{
-    background-color: #1665b4;
+    filter: brightness(0.8);
 }
 
 /* Divider */
@@ -201,10 +202,14 @@ button:hover{
 
 
 /* Responsividade */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     body {
+        display: flex;
+        justify-content: center; /* Centraliza no eixo X */
+        align-items: center; /* Centraliza no eixo Y */
+        margin: auto;
         overflow: hidden;
-        height: 100vh;
+        min-height: 100vh;
         box-sizing: border-box;
     }
     #container{
@@ -218,15 +223,15 @@ button:hover{
         display: flex;
         flex-direction: column;
         background: linear-gradient(0deg, #181818, #2E2E2E);
-        min-width: 400px;
+        width: 90%;
+        max-width: 400px;
         min-height: auto;
-        padding: 0px 50px;
+        padding: 0px 70px;
     }
 
     #img_container {
         display: none;
     }
-
 
 }
 
