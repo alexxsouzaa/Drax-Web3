@@ -204,12 +204,12 @@ button:hover{
     body {
         overflow: hidden;
         height: 100vh;
+        box-sizing: border-box;
     }
     #container{
         display: flex;
-        justify-content: center; /* Centraliza no eixo X */
+        justify-content: space-between; /* Centraliza no eixo X */
         align-items: center; /* Centraliza no eixo Y */
-        margin: auto;
     }
 
     #login_container {
