@@ -12,10 +12,8 @@ Este projeto é apenas para fins de estudo e não há garantia de atualizações
 
 ## Link de Demonstração
 
-[Inserir link aqui]
+- [Acesse o projeto ao vivo](https://alexxsouzaa.github.io/Drax-Web3.github.io/)
 
 ## Imagens de Demonstração
 
-![Imagem 1](#)
-![Imagem 2](#)
-
+![Tela de login](https://github.com/user-attachments/assets/9b1dc7b5-6e37-4dfc-ab68-b480ca6057c1)
