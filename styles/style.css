@@ -11,9 +11,12 @@
 
 /* Corpo */
 body {
-    display: flex;
     background-color: #0D0D0D;
     color: #fff;
+}
+
+#container{
+    display: flex;
 }
 
 /* Logo */
@@ -114,6 +117,10 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #1665b4;
+}
+
 /* Divider */
 .divider {
     display: flex;
@@ -154,6 +161,10 @@ button {
     padding-left: 16px;
 }
 
+.login_social button:hover{
+    background: #404040;
+}
+
 .login_social img{
     height: 24px;
 }
@@ -187,23 +198,18 @@ button {
     border-radius: 16px;
 }
 
+
 /* Responsividade */
 @media (max-width: 700px) {
     body {
         overflow: hidden;
+        height: 100vh;
+    }
+    #container{
         display: flex;
         justify-content: center; /* Centraliza no eixo X */
         align-items: center; /* Centraliza no eixo Y */
-        height: 100vh;
-    }
-
-    #container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 auto;
-        height: 100vh;
+        margin: auto;
     }
 
     #login_container {
